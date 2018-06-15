@@ -1,0 +1,33 @@
+<html> 
+<head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+<style>
+#oper {
+position:absolute;
+ height:100%;
+ width:100%;
+z-index:999999999999999999999999999999999; 
+}
+</style>
+<title>Live TV</title>
+</head>
+<body style="margin:0px;padding:0px;">
+<div id="ppp"></div>
+<script>
+var id = 342610; 
+var num  = 2503553;
+var playerElement = document.getElementById("ppp"); 
+var player = new Clappr.Player({ 
+ 
+source: 'https://d1sf1fdhahzla3.cloudfront.net/a.m3u8', 
+ height: "100%",
+ width: "100%",
+parentId: "#ppp",
+plugins: [LevelSelector],
+mimeType: "application/x-mpegURL",
+autoPlay: false,
+});
+</script>
+</body>
+</html>
