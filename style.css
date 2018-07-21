@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito|Ubuntu');
 body{
   margin: 0;
   padding: 0;
   background: url(bg.jpg) no-repeat;
   background-size: cover;
+  font-family: 'Nunito', sans-serif;
 }
 .box{
   width: 450px;
@@ -12,7 +14,7 @@ body{
   margin: auto;
   margin-top: 5%;
   color: white;
-  font-family: 'Century Gothic',sans-serif;
+  font-family: 'Nunito',sans-serif;
 }
 .box-img{
   border-radius: 50%;
@@ -23,6 +25,7 @@ body{
   font-size: 40px;
   letter-spacing: 4px;
   font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
 }
 .box h5{
   font-size: 20px;
@@ -31,6 +34,7 @@ body{
 }
 .box p{
   text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
 }
 ul{
   margin: 0;
